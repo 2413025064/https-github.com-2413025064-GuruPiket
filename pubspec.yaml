@@ -1,0 +1,30 @@
+name: gurupiket
+description: GuruPiket - Aplikasi Notifikasi Perubahan Jadwal dan Pengganti Guru Real-Time
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_messaging: ^15.2.10
+  flutter_local_notifications: ^18.0.1
+  provider: ^6.1.5+1
+  google_fonts: ^9.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
